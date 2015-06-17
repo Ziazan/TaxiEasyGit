@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TaxiEasy</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="confirm">确认</string>
+    <string name="WelcomPage">Welcome </string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="input_destination">请输入目的地</string>
+    <string name="taxi">打车</string>
+    <string name="name">姓名</string>
+    <string name="account">账号</string>
+    <string name="passwprd">密码</string>
+    <string name="sex">性别</string>
+    <string name="edit">修改</string>
+     <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="password_wrong">密码错误</string>
+    <string name="login_false">登录失败</string>
+    <string name="login_true">登录成功</string>
+    <string name="exit_login">退出登录</string>
+    <string name="loading_data">加载数据</string>
+    <string name="waiting">正在加载数据中……</string>
+    <string name="noPwdErr">请输入密码！</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="title_activity_information">Information</string>
+
+</resources>

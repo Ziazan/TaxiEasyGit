@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg" 
+    android:gravity="center_horizontal">
+    
+     <ImageView 
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/person_pic"
+            android:layout_marginTop="20dp"/>
+     
+     <LinearLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="50dp"
+         android:orientation="horizontal"
+         android:gravity="center_vertical"
+         android:paddingLeft="20dp"
+         android:layout_marginTop="30dp">
+         <LinearLayout 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:gravity="center_vertical">
+             <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/money_icon"/>
+
+          <TextView
+              android:id="@+id/information_account"
+              android:layout_width="40dp"
+              android:layout_height="wrap_content"
+              android:text="0.0"
+              android:textSize="20sp" 
+              android:layout_marginLeft="5dp"
+              android:textColor="#66d99f"/>
+         </LinearLayout>
+          <LinearLayout 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:gravity="center_vertical"
+              android:layout_marginLeft="20dp"
+              >
+             <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/history_icon"/>
+          <TextView
+              android:id="@+id/history_form"
+              android:layout_width="40dp"
+              android:layout_height="wrap_content"
+              android:text="0"
+              android:textSize="20sp" 
+              android:layout_marginLeft="10dp"
+              android:textColor="#66d99f"/>
+         </LinearLayout>
+         <LinearLayout 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:gravity="center_vertical"
+              android:layout_marginLeft="20dp"
+              >
+             <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/heart_icon"/>
+
+          <TextView
+              android:id="@+id/comment"
+              android:layout_width="40dp"
+              android:layout_height="wrap_content"
+              android:text="0"
+              android:textSize="20sp" 
+              android:layout_marginLeft="10dp"
+              android:textColor="#66d99f"/>
+         </LinearLayout>
+          
+     </LinearLayout>
+<TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="车牌号:鄂A66666"
+              android:textSize="20sp" 
+              android:layout_marginTop="30dp"
+              android:textColor="#66d99f"/>
+<TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="司机:张sir"
+              android:textSize="20sp" 
+              
+              android:textColor="#66d99f"/>
+
+
+ <Button 
+     android:id="@+id/information_cancle"
+     android:text="@string/exit_login"
+      android:layout_width="270dp"
+      android:layout_height="30dp"
+      android:layout_marginTop="80dp"
+      android:background="@drawable/btn_border"
+      android:textColor="#fefbf6"
+      android:textSize="20sp"
+     />
+</LinearLayout>
